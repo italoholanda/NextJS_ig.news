@@ -1,3 +1,5 @@
+import React from "react";
+import { SignInButton } from "../SignInButton";
 import styles from "./styles.module.scss";
 
 export function Header() {
@@ -9,10 +11,15 @@ export function Header() {
         </div>
         <nav>
           <ul>
-            <li><a className={styles.active}>Home</a></li>
-            <li><a>Posts</a></li>
+            <li>
+              <a className={styles.active}>Home</a>
+            </li>
+            <li>
+              <a>Posts</a>
+            </li>
           </ul>
         </nav>
+        <SignInButton />
       </div>
     </header>
   );
