@@ -12,10 +12,13 @@ This is a great example of using the **#JAMStack** architecture, using a **#Serv
 ## Screenshots
 
 ![NEXT 1](https://user-images.githubusercontent.com/76733221/146797010-38cd061a-f005-4c2a-83fb-2501c8f3d4a1.png)
-**Image 1:** homepage
+<br />
+**Image 1:** *homepage*
 
 ![NEXT 2](https://user-images.githubusercontent.com/76733221/146797008-7a2e5119-b5d6-4a92-aa9d-89bf559f0ada.png)
-**Image 2:** post list
+<br />
+**Image 2:** *post list*
 
 ![NEXT 3](https://user-images.githubusercontent.com/76733221/146797005-5a777d19-efb6-4fc1-acff-65fdbea7c47d.png)
-**Image 3:** post preview 
+<br />
+**Image 3:** *post preview*
