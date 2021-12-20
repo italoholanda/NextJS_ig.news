@@ -1,6 +1,7 @@
 import React from "react";
 import { SignInButton } from "../SignInButton";
 import styles from "./styles.module.scss";
+import { ActiveLink } from "../ActiveLink.tsx";
 
 export function Header() {
   return (
@@ -12,10 +13,14 @@ export function Header() {
         <nav>
           <ul>
             <li>
-              <a className={styles.active}>Home</a>
+              <ActiveLink href="/" activeClassName={styles.active}>
+                <a>Home</a>
+              </ActiveLink>
             </li>
             <li>
-              <a>Posts</a>
+              <ActiveLink href="/posts" activeClassName={styles.active}>
+                <a>Posts</a>
+              </ActiveLink>
             </li>
           </ul>
         </nav>
