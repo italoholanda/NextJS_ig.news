@@ -85,6 +85,6 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
     props: {
       post,
     },
-    revalidade: 60 * 30, // 30 min
+    revalidate: 60 * 30, // 30 minutes
   };
 };
